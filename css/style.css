@@ -88,3 +88,33 @@ body {
 	background-color: #ed2c49;
 	color: #fff;
 }
+
+/* SERVICES */
+#services {
+	padding: 100px 0 50px 0;
+	background-color: #fff;
+	margin-top: 2rem;
+}
+
+#services .col-md-6 img {
+	margin-bottom: 30px;
+	height: 85px;
+}
+#services .col-md-6 img:hover {
+	transform: scale(1.2);
+	transition: all 0.4s ease-in-out;
+}
+
+#services h4 {
+	font-family: var(--roboto);
+	font-weight: 700;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	color: #333 !important;
+}
+p {
+	font-family: var(--roboto);
+	color: var(--mainGrey);
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
