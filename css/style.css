@@ -4,6 +4,10 @@ body {
 	padding-bottom: 20px;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.container-fluid {
+	background-color: white;
+	width: 98%;
+}
 
 .bg-orange {
 	background-color: #d35649;
@@ -50,6 +54,9 @@ body {
 .slim-text {
 	font-size: 0.8rem;
 }
+.slim-text-1 {
+	font-size: 0.95rem;
+}
 
 .jumbotron {
 	background: linear-gradient(rgba(241, 70, 84, 0.8), rgba(94, 129, 190, 0.5)),
@@ -76,6 +83,7 @@ body {
 .jumbotron h2 {
 	width: 60rem;
 	text-align: left;
+	font-size: 1.8rem;
 }
 
 .search-form {
@@ -152,23 +160,215 @@ p {
 .top-footer {
 	background-color: black;
 }
+.footer-bottom {
+	background-color: gray;
+}
 .footer-nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 2px solid gray;
-	border-top: 2px solid gray;
 	padding: 0.5rem 2rem;
 	margin: 0 2.8rem;
 }
 .top-nav-icon {
-	background-color: #333;
+	position: relative;
+	background-color: #080707;
 	color: #fff;
 	font-size: 2rem;
 	border-radius: 50%;
 	border: 2px solid gray;
+	z-index: 1;
+}
+.footer-nav a,
+.nav-link {
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #fff;
+}
+.footer-info h2 {
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: #fff;
 }
 .footer-nav li {
 	list-style-type: none;
 	padding: 0;
+}
+.footer-form {
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-form input {
+	font-size: 1rem;
+	border: none;
+	height: 2rem;
+	padding: 0.3rem;
+}
+
+.footer-form input[type="text"] {
+	width: 60%;
+	color: #bfbdbc;
+	border: 1px solid #98a4a5;
+}
+
+.footer-form input[type="submit"] {
+	width: 25%;
+	background-color: #98a4a5;
+	color: #fff;
+}
+.footer-nav-wrapper::after,
+.footer-info::after {
+	content: "";
+	position: absolute;
+	right: -60px;
+	top: -55px;
+	width: 92vw; /*10% of the view port width*/
+	height: 2px;
+	border: 1px solid #98a4a5;
+	background: #eee;
+	text-align: center;
+}
+.footer-nav-wrapper::before,
+.footer-info::before {
+	content: "";
+	position: absolute;
+	right: -60px;
+	top: -15px;
+	width: 92vw; /*10% of the view port width*/
+	height: 2px;
+	border: 1px solid #98a4a5;
+	background: #eee;
+}
+
+/* MEDIA QUERY */
+@media (min-width: 425px) {
+	.container-fluid {
+		background-color: white;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.footer-nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.footer-info h2 {
+		margin: 0.7rem 0;
+	}
+	.footer-nav li {
+		list-style-type: none;
+		font-size: 0.5rem;
+		width: 100%;
+		margin-left: 0.3rem;
+	}
+	.footer-nav-wrapper::after,
+	.footer-info::after {
+		content: "";
+		position: absolute;
+		right: -60px;
+		left: 15px;
+		bottom: 15px;
+		width: 85vw; /*10% of the view port width*/
+		height: 2px;
+		border: 1px solid #98a4a5;
+		background: #eee;
+		text-align: center;
+	}
+	.footer-nav-wrapper::before,
+	.footer-info::before {
+		content: "";
+		position: absolute;
+		right: -60px;
+		left: 15px;
+		top: -15px;
+		width: 85vw; /*10% of the view port width*/
+		height: 2px;
+		border: 1px solid #98a4a5;
+		background: #eee;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	body {
+		background-color: #fff;
+	}
+	.footer-nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.footer-info h2 {
+		margin: 0.7rem 0;
+	}
+	.footer-nav li {
+		list-style-type: none;
+		font-size: 0.6rem;
+		width: 100%;
+		margin-left: 0.3rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.footer-nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.footer-info h2 {
+		margin: 0.8rem 0;
+	}
+	.footer-nav li {
+		list-style-type: none;
+		font-size: 0.8rem;
+		width: 100%;
+		margin-left: 0.3rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body {
+		background: #f4f5f6;
+	}
+
+	.container-fluid {
+		background-color: white;
+		width: 98%;
+	}
+	.footer-nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.5rem 2rem;
+		margin: 0 2.8rem;
+	}
+	.footer-info h2 {
+		margin: 0.7rem 0;
+	}
+	.footer-nav li {
+		list-style-type: none;
+		font-size: 1rem;
+		width: 100%;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.footer-nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.5rem 2rem;
+		margin: 0 2.8rem;
+	}
+	.footer-info h2 {
+		margin: 0.7rem 0;
+	}
+	.footer-nav li {
+		list-style-type: none;
+		font-size: 1rem;
+		width: 100%;
+	}
 }
