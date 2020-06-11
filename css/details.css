@@ -44,6 +44,10 @@ body {
   color: #e07364;
 }
 
+.text-deep-orange {
+  color: #d35649;
+}
+
 .text-dark {
   color: #8d8f91;
 }
@@ -58,6 +62,37 @@ body {
 
 .slim-text-1 {
   font-size: 0.95rem;
+}
+
+/* HEADER */
+header {
+  color: #e07364;
+}
+
+.intro-text {
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card {
+  -webkit-box-shadow: 10px 10px 18px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 18px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 18px 1px rgba(0, 0, 0, 0.75);
 }
 
 .top-footer {
