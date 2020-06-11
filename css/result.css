@@ -237,7 +237,7 @@ label {
 	position: absolute;
 	right: -60px;
 	top: -55px;
-	width: 92vw; /* 10% of the view port width */
+	width: 92vw;
 	height: 2px;
 	border: 1px solid #98a4a5;
 	background: #eee;
@@ -250,7 +250,7 @@ label {
 	position: absolute;
 	right: -60px;
 	top: -15px;
-	width: 92vw; /* 10% of the view port width */
+	width: 92vw;
 	height: 2px;
 	border: 1px solid #98a4a5;
 	background: #eee;
@@ -287,7 +287,7 @@ label {
 		right: -60px;
 		left: 15px;
 		bottom: 15px;
-		width: 85vw; /* 10% of the view port width */
+		width: 85vw;
 		height: 2px;
 		border: 1px solid #98a4a5;
 		background: #eee;
@@ -301,7 +301,7 @@ label {
 		right: -60px;
 		left: 15px;
 		top: -15px;
-		width: 85vw; /* 10% of the view port width */
+		width: 85vw;
 		height: 2px;
 		border: 1px solid #98a4a5;
 		background: #eee;
