@@ -2,28 +2,35 @@
 body {
 	padding-top: 50px;
 	padding-bottom: 20px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bg-orange {
 	background-color: #d35649;
 }
+
 .bg-light-orange {
 	background-color: #e17f65;
 }
+
 /* jumbotron button */
 .bg-gray {
 	background-color: #edf1f4;
 }
+
 .bg-deep-gray {
 	background-color: #98a4a5;
 }
+
 /* footer color */
 .bg-mid-gray {
 	background-color: #bfbdbc;
 }
+
 .bg-mid-dark {
 	background-color: #1f1f1f;
 }
+
 .bg-light-blue {
 	background-color: #519cd8;
 }
@@ -31,12 +38,19 @@ body {
 .text-orange {
 	color: #e07364;
 }
+
 .text-dark {
 	color: #8d8f91;
 }
+
 .text-gray {
 	color: #d1d7d9;
 }
+
+.slim-text {
+	font-size: 0.8rem;
+}
+
 .jumbotron {
 	background: linear-gradient(rgba(241, 70, 84, 0.8), rgba(94, 129, 190, 0.5)),
 		url("../images/bg-img-2.jpg") center no-repeat;
@@ -45,21 +59,25 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	min-height: calc(100vh-40px);
+	min-height: calc(100vh - 40px);
 	background-attachment: fixed;
 }
+
 .container {
 	position: relative;
 }
+
 .container span {
 	position: absolute;
 	top: 6.5rem;
 	left: 10.1rem;
 }
+
 .jumbotron h2 {
 	width: 60rem;
 	text-align: left;
 }
+
 .search-form {
 	width: 60rem;
 	height: 10rem;
@@ -72,6 +90,7 @@ body {
 	margin-bottom: 5rem;
 	box-shadow: 1rem 2rem 5rem #aaa;
 }
+
 .search-form input {
 	font-size: 1.6rem;
 	border: none;
@@ -100,6 +119,7 @@ body {
 	margin-bottom: 30px;
 	height: 85px;
 }
+
 #services .col-md-6 img:hover {
 	transform: scale(1.2);
 	transition: all 0.4s ease-in-out;
@@ -112,9 +132,43 @@ body {
 	text-transform: capitalize;
 	color: #333 !important;
 }
+
 p {
 	font-family: var(--roboto);
 	color: var(--mainGrey);
 	margin-bottom: 20px;
 	line-height: 1.5;
+}
+
+.testimony-profile {
+	display: flex;
+	justify-content: space-between;
+}
+
+.testimony img {
+	width: 250px;
+	height: 250px;
+}
+.top-footer {
+	background-color: black;
+}
+.footer-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid gray;
+	border-top: 2px solid gray;
+	padding: 0.5rem 2rem;
+	margin: 0 2.8rem;
+}
+.top-nav-icon {
+	background-color: #333;
+	color: #fff;
+	font-size: 2rem;
+	border-radius: 50%;
+	border: 2px solid gray;
+}
+.footer-nav li {
+	list-style-type: none;
+	padding: 0;
 }
