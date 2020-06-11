@@ -60,16 +60,24 @@ body {
 	font-size: 0.95rem;
 }
 
-.jumbotron {
-	background: linear-gradient(rgba(241, 70, 84, 0.8), rgba(94, 129, 190, 0.5)),
-		url("../images/bg-img-2.jpg") center no-repeat;
-	background-size: cover;
-	text-align: center;
-	color: #fff;
+.btn-align {
+	margin: 2rem 0;
+}
+
+label {
+	font-size: 1rem;
+	color: #333;
+	text-align: left;
 	text-transform: uppercase;
-	font-weight: bold;
-	min-height: calc(100vh - 40px);
-	background-attachment: fixed;
+}
+
+.bootcamp-header img {
+	width: 29px;
+	height: 28px;
+}
+
+.jumbotron {
+	text-align: center;
 }
 
 .container {
@@ -78,18 +86,18 @@ body {
 
 .container span {
 	position: absolute;
-	top: 3.2rem;
-	left: 14.6rem;
+	top: 6.5rem;
+	left: 10.1rem;
 }
 
 .jumbotron h2 {
-	text-align: center;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
+	color: #8d8f91;
 }
 
 .search-form {
-	width: 60vw;
-	height: 20vh;
+	width: 60rem;
+	height: 10rem;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
