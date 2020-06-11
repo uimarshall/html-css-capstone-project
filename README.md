@@ -3,7 +3,7 @@
 This project is built to reflects everything about html and css.
 
 > ​
-> ![screenshot](./images/newsweek_clone.png)
+> ![screenshot]()
 > ​
 
 ## Built With
