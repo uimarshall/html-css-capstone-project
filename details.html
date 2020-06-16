@@ -26,21 +26,44 @@
 	</head>
 
 	<body id="main">
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-orange">
-			<a class="navbar-brand" href="index.html">Devs Hub</a>
-			<!-- <button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarsExampleDefault"
-				aria-controls="navbarsExampleDefault"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button> -->
-
-			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<nav class="mobile d-sm-block d-md-block d-lg-none mb-0 bg-orange">
+			<a
+				href="index.html"
+				class="nav-brand d-block text-center text-decoration-none text-white"
+				><img src="images/logo.png" alt="logo" class="img-fluid"
+			/></a>
+			<ul class="mobile-nav d-flex justify-content-between align-items-center">
+				<li class="nav-item">
+					<a class="nav-link" href="search_result.html">
+						<i class="fa fa-search fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"
+						><i class="fa fa-user fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="fa fa-rss fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"
+						><i class="fa fa-bars fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+			</ul>
+		</nav>
+		<nav
+			class="navbar navbar-expand-lg navbar-dark fixed-top bg-orange d-xs-none d-sm-none d-md-none d-lg-block"
+		>
+			<div class="d-flex justify-content-between">
+				<a
+					href="#main"
+					class="nav-brand d-block text-center text-decoration-none text-white"
+					><img src="images/logo.png" alt="logo" class="img-fluid"
+				/></a>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="search_result.html">
