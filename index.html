@@ -26,21 +26,44 @@
 	</head>
 
 	<body id="main">
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-orange">
-			<a class="navbar-brand" href="#main">Devs Hub</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarsExampleDefault"
-				aria-controls="navbarsExampleDefault"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<nav class="mobile d-sm-block d-md-block d-lg-none mb-0 bg-orange">
+			<a
+				href="index.html"
+				class="nav-brand d-block text-center text-decoration-none text-white"
+				><img src="images/logo.png" alt="logo" class="img-fluid"
+			/></a>
+			<ul class="mobile-nav d-flex justify-content-between align-items-center">
+				<li class="nav-item">
+					<a class="nav-link" href="search_result.html">
+						<i class="fa fa-search fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"
+						><i class="fa fa-user fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="fa fa-rss fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"
+						><i class="fa fa-bars fa-fw" aria-hidden="true"></i
+					></a>
+				</li>
+			</ul>
+		</nav>
+		<nav
+			class="navbar navbar-expand-lg navbar-dark fixed-top bg-orange d-xs-none d-sm-none d-md-none d-lg-block"
+		>
+			<div class="d-flex justify-content-between">
+				<a
+					href="#main"
+					class="nav-brand d-block text-center text-decoration-none text-white"
+					><img src="images/logo.png" alt="logo" class="img-fluid"
+				/></a>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="search_result.html">
@@ -66,7 +89,7 @@
 			</div>
 		</nav>
 
-		<main class="container-fluid mx-auto">
+		<main class="container-fluid">
 			<!-- Main jumbotron for a primary marketing message or call to action -->
 			<div class="jumbotron">
 				<div class="container">
@@ -75,15 +98,18 @@
 					>
 						join the ecosystem and get the best bootcamps and mentors
 					</h2>
-					<span>search by key words</span>
-					<form class="search-form form-inline">
-						<input type="text" class="d-sm-block d-md-inline" />
-						<input
-							type="submit"
-							value="Search"
-							class="d-sm-block d-md-inline"
-						/>
-					</form>
+					<div class="form-wrapper w-sm-50">
+						<h1 class="text-left">search by key words</h1>
+						<form class="form-inline">
+							<div class="form-group mb-2">
+								<input type="text" class="form-control search-form" />
+							</div>
+							<button type="submit" class="btn btn-primary btn-sm-block mb-2">
+								search
+							</button>
+						</form>
+					</div>
+
 					<p>
 						<a class="btn bg-gray btn-sm" href="#services" role="button"
 							>how it works &raquo;</a
