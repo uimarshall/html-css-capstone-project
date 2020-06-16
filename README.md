@@ -3,7 +3,15 @@
 This project is built to reflects everything about html and css.
 
 > ​
-> ![screenshot]()
+> ![screenshot](./images/devs-hub.png)
+> ​
+
+> ​
+> ![screenshot](./images/devs-hub-tablet.png)
+>
+> ​
+> ​
+> ![screenshot](./images/devs-hub-small.png)
 > ​
 
 ## Built With
@@ -16,7 +24,7 @@ This project is built to reflects everything about html and css.
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/1fc04cec81ccac80aade2d846e27e40d01c4bd4f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/990267e892e18c6bc0c6164a1f632183ba7c8713/index.html#main)
 ​
 ​
 
