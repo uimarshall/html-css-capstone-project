@@ -1,6 +1,8 @@
 # html-css-capstone-project
 
-This project is built to reflects everything about html and css.
+## This project is built to reflects everything about html and css.
+
+The project requirement was to build a  hosted  web page of three pages. The landing page for this  web page is a search page which links to a results page , the result page then links to the details page. In this project i build a page where people can get a software development bootcamp and enrol.
 
 > ​
 > ![screenshot]()
