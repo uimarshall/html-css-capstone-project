@@ -2,7 +2,7 @@
 
 ## This project is built to reflects everything about html and css.
 
-The project requirement was to build a  hosted  web page of three pages. The landing page for this  web page is a search page which links to a results page , the result page then links to the details page. In this project i build a page where people can get a software development bootcamp and enrol.
+The project requirement was to build a hosted web page of three pages. The landing page for this web page is a search page which links to a results page , the result page then links to the details page. In this project i build a page where people can get a software development bootcamp and enrol.
 
 > ​
 > ![screenshot](./images/devs-hub.png)
@@ -27,6 +27,11 @@ The project requirement was to build a  hosted  web page of three pages. The lan
 
 ​
 [Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/990267e892e18c6bc0c6164a1f632183ba7c8713/index.html#main)
+
+## Link to Video Demo
+
+​
+[Link to Video Demo](https://www.loom.com/share/45d54cee22704f74bdaa6ee184f6217a)
 ​
 ​
 
