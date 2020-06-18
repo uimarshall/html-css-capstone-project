@@ -35,7 +35,7 @@ The project requirement was to build a hosted web page of three pages. The landi
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/990267e892e18c6bc0c6164a1f632183ba7c8713/index.html#main)
+[Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/04e37d07979695b69316b1bff06f1c6b60982c58/index.html)
 
 ## Link to Video Demo
 
