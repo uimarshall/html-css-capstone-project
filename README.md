@@ -8,6 +8,8 @@ The project requirement was to build a hosted web page of three pages. The landi
 
 ### Clone the repo on your system, find the index.html file and open with your browser
 
+### Steps
+
 **git clone** https://github.com/uimarshall/html-css-capstone-project.git
 
 **cd** html-css-capstone-project
