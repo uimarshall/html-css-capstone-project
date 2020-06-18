@@ -4,16 +4,23 @@
 
 The project requirement was to build a hosted web page of three pages. The landing page for this web page is a search page which links to a results page , the result page then links to the details page. In this project i build a page where people can get a software development bootcamp and enrol.
 
-> ​
-> ![screenshot](./images/devs-hub.png)
-> ​
+## Getting Started
+
+**Clone the repo on your system, find the index.html file and open with your browser**
+
+### git clone https://github.com/uimarshall/html-css-capstone-project.git
+
+### cd html-css-capstone-project
+
+### download code into your text editor
+
+### open the index.html in the browser
+
+​
+​
 
 > ​
-> ![screenshot](./images/devs-hub-tablet.png)
->
-> ​
-> ​
-> ![screenshot](./images/devs-hub-small.png)
+> ![screenshot](./images/devs-hub.png)
 > ​
 
 ## Built With
@@ -32,14 +39,6 @@ The project requirement was to build a hosted web page of three pages. The landi
 
 ​
 [Link to Video Demo](https://www.loom.com/share/45d54cee22704f74bdaa6ee184f6217a)
-​
-​
-
-## Getting Started
-
-​
-**Clone the repo on your system, find the index.html file and open with your browser**
-​
 ​
 
 ## Authors
