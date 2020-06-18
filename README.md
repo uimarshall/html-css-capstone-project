@@ -6,15 +6,17 @@ The project requirement was to build a hosted web page of three pages. The landi
 
 ## Getting Started
 
-**Clone the repo on your system, find the index.html file and open with your browser**
+### Clone the repo on your system, find the index.html file and open with your browser
 
-### git clone https://github.com/uimarshall/html-css-capstone-project.git
+### Steps
 
-### cd html-css-capstone-project
+**git clone** https://github.com/uimarshall/html-css-capstone-project.git
 
-### download code into your text editor
+**cd** html-css-capstone-project
 
-### open the index.html in the browser
+**download** code into your text editor
+
+**open** the index.html in the browser
 
 ​
 ​
@@ -33,7 +35,7 @@ The project requirement was to build a hosted web page of three pages. The landi
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/990267e892e18c6bc0c6164a1f632183ba7c8713/index.html#main)
+[Live Demo Link](https://rawcdn.githack.com/uimarshall/html-css-capstone-project/04e37d07979695b69316b1bff06f1c6b60982c58/index.html)
 
 ## Link to Video Demo
 
