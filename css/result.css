@@ -426,10 +426,10 @@ label {
     background: #f4f5f6;
   }
 
-  .container-fluid {
-    background-color: white;
-    width: 98%;
-  }
+  /* .container-fluid {
+		background-color: white;
+		width: 98%;
+	} */
 
   .footer-nav {
     display: flex;
