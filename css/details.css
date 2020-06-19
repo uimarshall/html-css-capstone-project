@@ -298,6 +298,7 @@ iframe {
 @media (min-width: 576px) {
   body {
     background-color: #fff;
+    overflow-x: hidden;
   }
 
   .mobile {
@@ -332,6 +333,10 @@ iframe {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .mobile {
     display: flex;
     flex-direction: row;
@@ -375,6 +380,7 @@ iframe {
 @media (min-width: 992px) {
   body {
     background: #f4f5f6;
+    overflow-x: hidden;
   }
 
   .container-fluid {

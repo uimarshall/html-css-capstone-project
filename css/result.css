@@ -339,6 +339,7 @@ label {
 @media (min-width: 576px) {
   body {
     background-color: #fff;
+    overflow-x: hidden;
   }
 
   .mobile {
@@ -373,6 +374,10 @@ label {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .margin-right-1 {
     margin-right: 1.3rem;
   }
@@ -424,12 +429,8 @@ label {
 
   body {
     background: #f4f5f6;
+    overflow-x: hidden;
   }
-
-  /* .container-fluid {
-		background-color: white;
-		width: 98%;
-	} */
 
   .footer-nav {
     display: flex;

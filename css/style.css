@@ -378,6 +378,7 @@ body .form-control:nth-child(1) {
 @media (min-width: 576px) {
   body {
     background-color: #fff;
+    overflow-x: hidden;
   }
 
   .mobile {
@@ -416,6 +417,11 @@ body .form-control:nth-child(1) {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body {
+    background: #f4f5f6;
+    overflow-x: hidden;
+  }
+
   .mobile {
     display: flex;
     flex-direction: row;
@@ -492,6 +498,7 @@ body .form-control:nth-child(1) {
 @media (min-width: 992px) {
   body {
     background: #f4f5f6;
+    overflow-x: hidden;
   }
 
   .footer-nav {
